@@ -1,5 +1,8 @@
 # Twitter typeahead.js jquery plugin
 
+Forked from [yourabi/twitter-typeahead-rails](https://github.com/yourabi/twitter-typeahead-rails) as I needed to
+change the setting of `autocomplete = 'off'` to `autocomplete = 'no'` for a legacy app.
+
 This asset gem packages the [mantained twitter typeahead.js](https://github.com/corejavascript/typeahead.js) jquery plugin for the Rails asset pipeline.
 
 To learn more about typeahead.js read the post [Twitter's engineering blog](http://engineering.twitter.com/2013/02/twitter-typeaheadjs-you-autocomplete-me.html).
@@ -14,7 +17,7 @@ Add this line to your application's Gemfile:
 
     or
 
-    gem 'twitter-typeahead-rails', :git => "git://github.com/yourabi/twitter-typeahead-rails.git"
+    gem 'twitter-typeahead-rails', :git => "git://github.com/mapanett/twitter-typeahead-rails.git"
 
 
 And then execute:
